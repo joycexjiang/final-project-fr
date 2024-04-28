@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: d9adddf16d42743d1a3f4d2edd54674e
+  - enabled: 1
+    path: Assets/Scenes/LevelsScreen.unity
+    guid: 98cf715e39cdd437ab515732c8924c8d
+  - enabled: 1
+    path: Assets/Scenes/InstructionsScreen.unity
+    guid: 2619a1e73cda34c9a9b603f007074239
+  - enabled: 1
     path: Assets/Scenes/WaterScene.unity
     guid: 270df22fa7a4840de93b687f731cdddb
   - enabled: 1
