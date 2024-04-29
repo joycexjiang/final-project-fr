@@ -1,4 +1,4 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -33,19 +33,12 @@ public class EnemyAgro : MonoBehaviour
 
     private void ChasePlayer()
     {
-        if(transform.position.x < player.position.x)
-        {
-            // enemy is to the left of player, so move right
-            rb2d.velocity = new Vector2(moveSpeed, 0);
-        } else if(transform.position.x > player.position.x)
-        {
-            // enemy is to right side of player, so move left
-            rb2d.velocity = new Vector2(-moveSpeed, 0);
-        }
+        Vector2 direction = (player.position - transform.position).normalized;
+        rb2d.velocity = direction * moveSpeed;
     }
 
     private void StopChasingPlayer()
     {
-
+        rb2d.velocity = Vector2.zero;
     }
 }
