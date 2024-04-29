@@ -70313,21 +70313,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3238062420197210149, guid: cec9d51b9f8bd4ea89e7056cdd16e27b, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3238062420197210149, guid: cec9d51b9f8bd4ea89e7056cdd16e27b, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -1136897041
-      objectReference: {fileID: 0}
     - target: {fileID: 7877325557126354506, guid: cec9d51b9f8bd4ea89e7056cdd16e27b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.89
+      value: -10.94
       objectReference: {fileID: 0}
     - target: {fileID: 7877325557126354506, guid: cec9d51b9f8bd4ea89e7056cdd16e27b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.4
+      value: -11.93
       objectReference: {fileID: 0}
     - target: {fileID: 7877325557126354506, guid: cec9d51b9f8bd4ea89e7056cdd16e27b, type: 3}
       propertyPath: m_LocalPosition.z
